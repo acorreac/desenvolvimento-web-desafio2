@@ -1,0 +1,210 @@
+/*
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(235, 228, 228);
+}
+
+.navbar{
+    background-color: rgb(246, 198, 55);
+    padding: 3px 0px 25px 0px;
+    text-align: center;
+    width: 100%;
+}
+.navbar h2{
+    color: gray;
+    font-size: 200%;
+}
+.navbar span{
+    color: #fff;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff; 
+}
+.navbar nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 35% 0 35%;
+    }
+
+.direita{
+    background-color: #fff;
+    width: 33.33%;
+    margin-top: 1%;
+    padding: 1% 1% 1% 1%;
+    margin-top: 2%;
+    margin-left: 28%;
+    float: left;
+}
+.direita h2{
+   color: rgb(238, 181, 75);
+}
+.direita h4{
+    color: rgb(238, 181, 75);
+ }
+.direita img{
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.esquerda{
+    float: right;
+    background-color: #fff;
+    width: 15%;
+    margin-top: 2%;
+    margin-right: 20%;
+    
+}
+
+.esquerda span{
+    color: rgb(238, 181, 75);
+}
+.esquerda hr{
+    width: 90%;
+}
+.para_esquerda{
+    margin-left: 10%;
+}
+.esquerda_cinza{
+    background-color: rgb(190, 190, 190);
+    margin-top: 5%;
+    width: 92%;
+    height: 30px;
+}
+.para_esquerda2{
+    margin-left: 10%;
+}
+.para_esquerda2 span{
+    color: rgb(238, 181, 75);
+}
+
+.rodape{
+    margin-top: 100%;
+    background-color: rgb(187, 186, 186);
+    text-align: center;
+    text-transform: 0 -50%;
+    width: 50%;
+    height: 30px;
+    margin-left: 28%;
+    margin-bottom: 2%;
+} */
+
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(212, 206, 206);
+}
+/**Classe da barra de navegação**/
+.navbar{
+    background-color: orange;
+    padding: 3px 0px 15px 0px;
+    text-align: center;
+    width: 100%;
+}
+.navbar h2{
+    color: gray;
+    font-size: 200%;
+}
+.navbar span{
+    color: #fff;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff; 
+}
+.navbar nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 35% 0 35%;
+    }
+
+/**Classe da div da esquerda**/
+    
+.direita{
+    background-color: #fff;
+    width: 33.33%;
+    margin-top: 1%;
+    padding: 1% 1% 1% 1%;
+    margin-top: 2%;
+    margin-left: 28%;
+    float: left;
+    text-align: justify;
+
+}
+.direita h2{
+   color: rgb(238, 181, 75);
+}
+.direita h4{
+    color: rgb(238, 181, 75);
+ }
+.direita img{
+    width:100%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+/**Formatação classe esquerda**/
+.esquerda{
+    float: right;
+    background-color: #fff;
+    width: 14%;
+    margin-top: 2%;
+    margin-right: 20%;
+    padding: 0.3%;
+}
+
+.esquerda span{
+    color: rgb(238, 181, 75);
+}
+
+.esquerda hr{
+    width: 90%;
+}
+
+.para_esquerda{
+    padding: 5%;
+}
+
+.esquerda_cinza{
+    background-color: rgb(190, 190, 190);
+    margin-top: 5%;
+    width: 100%;
+    height: 28px;
+    padding: 0.5%;
+
+    font-size: 15px;
+}
+
+.esquerda_cinza h4{
+    padding: 5%;
+}
+
+.para_esquerda2{
+    padding: 5%;
+}
+.para_esquerda2 span{
+    color: rgb(238, 181, 75);
+    padding: 5%;   
+}
+
+
+/**Classe para footer**/
+footer{
+    background-color: rgb(179, 174, 174);
+    margin-top: 100%;
+    margin-left: 28%;
+    margin-bottom: 1%;
+    width: 50%;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5%;
+}
